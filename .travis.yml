@@ -20,3 +20,5 @@ matrix:
       python: 3.6
       env:
         - TEST_CMD="black --check --verbose ."
+    - name: "3.6"
+      python: 3.6
