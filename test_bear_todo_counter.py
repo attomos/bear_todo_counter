@@ -1,4 +1,4 @@
-from main import append_todo_count
+from bear_todo_counter import append_todo_count
 
 
 def test_simple_todo():

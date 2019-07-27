@@ -4,7 +4,7 @@ python:
   - "3.6"
 cache: pip
 env:
-- TEST_CMD="pytest --cov main"
+- TEST_CMD="pytest --cov bear_todo_counter"
 install:
 - pip install -r requirements.txt
 script:
