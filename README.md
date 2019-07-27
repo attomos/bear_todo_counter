@@ -4,21 +4,23 @@
 <a href='https://coveralls.io/github/attomos/bear_todo_counter?branch=master'><img src='https://coveralls.io/repos/github/attomos/bear_todo_counter/badge.svg?branch=master&kill_cache=1' alt='Coverage Status' /></a>
 <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
 
-Put a TODO progress in [Bear][bear] note's title.
+Visual progress bar provided by Bear is nice, but sometimes I need to know how many tasks need to
+be done.  
+`bear_todo_counter` addresses this problem, allowing you to put a TODO progress in [Bear][bear]
+note's title.
 
 ## Motivation
-Inspired by [org-mode][org-mode]'s [subtasks progress][org-mode-tasks], this simple Python script will:
+Inspired by [org-mode][org-mode]'s [subtasks progress][org-mode-tasks], this simple Python script
+will:
 1. read the text from clipboard
 2. count number of completed items and total items
-3. set the clipboard with the original text with TODO progress in the first line
+3. set the clipboard with the original text + TODO progress in the first line
 
 ### Org mode Subtasks Progress
 ![org-mode subtasks progress](./images/emacs.gif "org-mode subtasks progress")
 
 ### :bear: with bear_todo_counter
 ![bear_todo_counter](./images/bear.gif "bear_todo_counter")
-
-Or leave it empty and use the [link text itself].
 
 
 ## Usage
