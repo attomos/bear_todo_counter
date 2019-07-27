@@ -14,3 +14,9 @@ after_success:
 notifications:
   on_success: change
   on_failure: always
+matrix:
+  include:
+    - name: "black"
+      python: 3.6
+      env:
+        - TEST_CMD="black --check --verbose ."
