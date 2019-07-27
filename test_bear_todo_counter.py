@@ -31,6 +31,21 @@ Tasks 🐻 [1/3]
     assert actual == expected
 
 
+def test_todo_with_existing_todo_counter():
+    txt = """\
+Tasks 🐻 [1/3]
++ 🌈 Task
++ Task two
+- Task three"""
+    actual = append_todo_count(txt)
+    expected = """\
+Tasks 🐻 [2/3]
++ 🌈 Task
++ Task two
+- Task three"""
+    assert actual == expected
+
+
 def test_todo_with_subtasks():
     txt = """\
 Tasks 🐻
