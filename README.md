@@ -1,5 +1,9 @@
 # bear_todo_counter
 
+[![Build Status](https://travis-ci.com/attomos/bear_todo_counter.svg?branch=master)](https://travis-ci.com/attomos/bear_todo_counter)
+<a href='https://coveralls.io/github/attomos/bear_todo_counter?branch=master'><img src='https://coveralls.io/repos/github/attomos/bear_todo_counter/badge.svg?branch=master' alt='Coverage Status' /></a>
+<a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+
 Put a TODO progress in [Bear][bear] note's title.
 
 ## Motivation
@@ -30,7 +34,9 @@ Screenshots below should explain everything.
 ```bash
 # in virutalenv or whatever env management of your choice
 pip install -r requirements.txt
+
 pytest
+pytest --cov  # with coverage
 ```
 
 [bear]: https://bear.app/
