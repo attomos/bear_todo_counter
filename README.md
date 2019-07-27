@@ -1,7 +1,7 @@
 # bear_todo_counter
 
 [![Build Status](https://travis-ci.com/attomos/bear_todo_counter.svg?branch=master)](https://travis-ci.com/attomos/bear_todo_counter)
-<a href='https://coveralls.io/github/attomos/bear_todo_counter?branch=master'><img src='https://coveralls.io/repos/github/attomos/bear_todo_counter/badge.svg?branch=master' alt='Coverage Status' /></a>
+<a href='https://coveralls.io/github/attomos/bear_todo_counter?branch=master'><img src='https://coveralls.io/repos/github/attomos/bear_todo_counter/badge.svg?branch=master&kill_cache=1' alt='Coverage Status' /></a>
 <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
 
 Put a TODO progress in [Bear][bear] note's title.
