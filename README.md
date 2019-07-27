@@ -36,7 +36,7 @@ Screenshots below should explain everything.
 pip install -r requirements.txt
 
 pytest
-pytest --cov  # with coverage
+pytest --cov main  # with coverage
 ```
 
 [bear]: https://bear.app/
