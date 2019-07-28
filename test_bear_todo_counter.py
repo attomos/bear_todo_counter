@@ -151,3 +151,22 @@ Tasks with plus signs 😂 [4/8]
 + what about at the end +
 + +"""
     assert actual == expected
+
+
+def test_todo_with_line_separator():
+    txt = """\
+# tryme 🐻
+- read this
+- read this too
+---
++ done 1
++ done 2"""
+    actual = append_todo_count(txt)
+    expected = """\
+# tryme 🐻 [2/4]
+- read this
+- read this too
+---
++ done 1
++ done 2"""
+    assert actual == expected
