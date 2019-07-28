@@ -1,7 +1,5 @@
 dist: xenial
 language: python
-python:
-  - "3.6"
 cache: pip
 env:
 - TEST_CMD="pytest --cov bear_todo_counter"
@@ -22,3 +20,5 @@ matrix:
         - TEST_CMD="black --check --verbose ."
     - name: "3.6"
       python: 3.6
+    - name: "3.7"
+      python: 3.7
