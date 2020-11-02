@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "bear_todo_counter"
+version = "0.1.0"
+description = ""
+authors = ["Nattaphoom Chaipreecha <attomos@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+flake8 = "^3.8.4"
+isort = "^5.6.4"
+pdbpp = "^0.10.2"
+coveralls = "^2.1.2"
+pytest-cov = "^2.10.1"
+pytest = "^6.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
