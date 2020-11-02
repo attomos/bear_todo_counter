@@ -4,7 +4,9 @@ cache: pip
 env:
 - TEST_CMD="pytest --cov bear_todo_counter"
 install:
-- pip install -r requirements.txt
+  - pip install --upgrade pip
+  - pip install poetry
+  - poetry install -v
 script:
 - $TEST_CMD
 after_success:
